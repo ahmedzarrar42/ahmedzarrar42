@@ -40,7 +40,7 @@ Standalone authentication and authorisation microservice with OAuth2, JWT token 
 
 ---
 
-### 📦 [Laravel Microservices Starter](./link-to-repo)
+### 📦 [Laravel Microservices Starter](https://github.com/ahmedzarrar42/laravel-microservices-starter)
 A reusable boilerplate for building Laravel-based microservices with inter-service communication via REST and message queues.
 `Laravel` `RabbitMQ` `Docker Compose` `GitHub Actions`
 
