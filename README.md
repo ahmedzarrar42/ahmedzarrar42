@@ -1,22 +1,21 @@
 # Hi there, I'm Muhammad Ahmed 👋
-
-### Senior Backend & Full-Stack Engineer · PHP / Laravel · 10+ Years Experience
+### Senior Backend Engineer · PHP / Laravel / Symfony · 10+ Years Experience
 
 I'm a seasoned software engineer with over a decade of experience building scalable, secure backend systems across **e-commerce**, **security**, and **SaaS** platforms. I specialise in designing clean architectures and leading engineering teams to deliver high-quality products.
 
-> 💼 All of my professional work has been built on private company repositories. This profile showcases personal projects, experiments, and open-source contributions that reflect my technical approach and interests.
+> 💼 All of my professional work has been built on private company repositories. This profile showcases personal projects and open-source work that reflect my technical approach and interests.
 
 ---
 
 ## 🛠️ Tech Stack
 
 **Languages & Frameworks**
-- PHP (Laravel, Lumen) · REST API design · Microservices
+- PHP 8.3 (Laravel, Symfony) · REST API design · Microservices
 - JavaScript / Vue.js · MySQL / PostgreSQL / Redis
 
-**Architecture & Infrastructure**
-- System architecture · Microservices design · Database design & optimisation
-- Docker · CI/CD pipelines (GitHub Actions, GitLab CI) · Linux server administration
+**Infrastructure & Messaging**
+- Docker · RabbitMQ · Message Queues · CI/CD (GitHub Actions)
+- Linux server administration · Redis caching
 
 **Practices**
 - Test-driven development (PHPUnit, Pest)
@@ -27,21 +26,30 @@ I'm a seasoned software engineer with over a decade of experience building scala
 
 ## 🚀 Featured Projects
 
-### 🛒 [E-Commerce REST API](./link-to-repo)
-A production-grade RESTful API for an e-commerce platform built with Laravel 11.
-Features: product catalogue, cart management, order processing, payment gateway integration, and role-based access control.
-`Laravel` `MySQL` `Redis` `Docker` `PHPUnit`
+### ⚙️ [Symfony Platform API](https://github.com/ahmedzarrar42/symfony-platform-api)
+Production-grade REST API platform built with **Symfony 7 + PHP 8.3**. Features JWT authentication, order state machine, async processing via RabbitMQ, Redis caching, PHPUnit unit & functional tests, and full Docker setup.
+
+`Symfony 7` `PHP 8.3` `MySQL` `Redis` `RabbitMQ` `JWT` `Docker` `PHPUnit`
 
 ---
 
-### 🔐 [Secure Auth Microservice](./link-to-repo)
-Standalone authentication and authorisation microservice with OAuth2, JWT token management, rate limiting, and audit logging.
-`Laravel Passport` `JWT` `Redis` `Docker` `REST`
+### 🛒 [E-Commerce REST API](https://github.com/ahmedzarrar42/ecommerce-api)
+Production-grade RESTful API for an e-commerce platform built with Laravel 13. Features product catalogue, cart management, order processing, and role-based access control.
+
+`Laravel 13` `MySQL` `Redis` `Docker` `PHPUnit` `Sanctum`
+
+---
+
+### 🔐 [Auth Microservice](https://github.com/ahmedzarrar42/auth-microservice)
+Standalone authentication microservice with JWT token management, Two-Factor Authentication (TOTP), Role-Based Access Control, Redis-cached permissions, rate limiting, and full audit logging.
+
+`Laravel` `JWT` `2FA` `RBAC` `Redis` `Docker`
 
 ---
 
 ### 📦 [Laravel Microservices Starter](https://github.com/ahmedzarrar42/laravel-microservices-starter)
-A reusable boilerplate for building Laravel-based microservices with inter-service communication via REST and message queues.
+Reusable boilerplate for building Laravel-based microservices with inter-service communication via REST and message queues.
+
 `Laravel` `RabbitMQ` `Docker Compose` `GitHub Actions`
 
 ---
@@ -49,17 +57,18 @@ A reusable boilerplate for building Laravel-based microservices with inter-servi
 ## 💡 What I Bring to a Team
 
 - **10+ years** delivering backend systems in e-commerce and security domains
-- Strong background in **system architecture** — I think about scalability and maintainability from day one
-- Experience **leading and mentoring** engineering teams, running code reviews, and setting technical standards
-- A pragmatic, delivery-focused mindset — I write clean code that works in production, not just on paper
+- Strong background in **system architecture** — scalability and maintainability from day one
+- Experience **leading and mentoring** engineering teams, running code reviews, setting standards
+- Hands-on with both **Laravel and Symfony** — REST APIs, async queues, caching, testing
+- A pragmatic, delivery-focused mindset — clean code that works in production
 
 ---
 
 ## 📈 Currently
 
-- 🇩🇪 Based in Germany on a Chancenkarte (Opportunity Card) — open to full-time Senior/Lead roles
-- 🌱 Exploring event-driven architecture with Kafka and Laravel Horizon
-- 💬 Happy to discuss system design, API architecture, or Laravel best practices
+- 🇩🇪 Based in Germany — open to full-time Senior/Lead Backend roles
+- 🌱 Exploring event-driven architecture and Symfony ecosystem
+- 💬 Happy to discuss system design, API architecture, or PHP best practices
 
 ---
 
